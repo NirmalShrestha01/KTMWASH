@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,gBAAgB,EAAE,8BAA8B;EAChD,KAAK,EAAE,IAAI;CASd;;AAXD,AAKI,QALI,CAKJ,EAAE,CAAA;EACE,SAAS,EAAE,KAAK;CACnB",
+    "sources": [
+        "../scss/callus.scss"
+    ],
+    "names": [],
+    "file": "callus.css"
+}

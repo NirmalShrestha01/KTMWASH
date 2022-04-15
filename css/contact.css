@@ -1,0 +1,8 @@
+.call-us {
+  background-image: url(../image/section_bg01.png);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+/*# sourceMappingURL=contact.css.map */

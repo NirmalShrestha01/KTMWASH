@@ -1,0 +1,170 @@
+.contact-us{
+    display: flex;
+    min-width: 350px;
+    justify-content: space-between;
+    text-align: center;
+
+    .col-2{
+        box-shadow: -1px 2px 5px 1px rgba(0,0,0,0.17);
+        padding: 100px 100px;
+        line-height: 2;
+        margin-left: 1px;
+
+        h3{
+            font-size: 25px;
+            color: $font-color;
+            margin-bottom: 30px;
+        }
+
+        .laundry{
+            line-height: 3;
+            text-align: left;
+        }
+     
+    }
+
+    .title{
+        margin-top: -20px;
+    }
+
+
+    .form-details{
+        text-align: left;
+        line-height: 3;
+
+        input {
+            border: none;
+            border-bottom: 2px solid #ccc;
+            font-family: 'Montserrat', sans-serif;
+            width: 250px;
+            padding-bottom: 10px;
+
+            &::placeholder {
+                opacity: 0.5;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .message-section{
+            border: none;
+            border-bottom: 2px solid #ccc;
+            font-family: 'Montserrat', sans-serif;
+            width: 250px;
+            padding-top: 10px; 
+            
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .message-section::placeholder {
+            padding-top: 7px;
+            opacity: 0.5;
+        }
+
+        .btn-form{
+            // margin-top: 2px;
+            font-size: 17px;
+            padding: 8px 15px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $hover-color;
+            }
+            
+        }
+    }
+
+}
+
+
+
+@media (max-width: 320px) {
+
+    .contact-box{
+            background-color: #1D2547;
+            width: 250px !important;
+            height: 250px !important;
+            line-height: 1.9;
+    
+            
+
+            i{
+                color: #fff;
+            }
+
+            h2{
+                font-size: 15px !important;
+                color: #fff;
+            }
+
+            small{
+                color: #fff;
+                font-size: 10px;
+            }
+
+            span{
+                font-size: 9px !important;
+                color: #fff;
+            }
+        }
+}
+
+
+
+    // Contact.html page media queries start
+
+@media (max-width: 400px){
+    .contact-us{
+        flex-direction: column;
+    }
+
+    .contact-form {
+
+        .col-2{
+         padding: 50px 50px;;
+        }
+        .title{
+            z-index: -1;
+        }
+        
+        .laundry {
+            font-size: 15px;
+        }
+
+        .message-section{
+           
+            margin-left: 1px !important;
+        }
+
+    }
+
+}
+
+@media (min-width:600px) and  (max-width:800px){
+
+    .contact-us{
+        height: 468px;
+        z-index: -1;
+    }
+   .contact-form {
+
+        .col-2{
+         padding: 50px 49px;;
+        }
+
+        .laundry {
+            font-size: 13px;
+        }
+        
+    }
+
+
+}
+
+
+    // Contact.html page media queries End
+

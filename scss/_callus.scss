@@ -1,0 +1,131 @@
+.call-us{
+    background-image: url(../image/section_bg01.png);
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    margin-bottom: 50px;
+
+    h2{
+        color: #fff;
+        font-size: 35px;
+    }
+
+    p{
+        color: #fff;
+        padding-top: 20px;
+    }
+
+    button{
+        margin:10px 30px 0 0;
+        cursor: pointer;
+
+        &:hover{
+            background-color: $hover-color;
+        }
+    }
+}
+
+
+.contact{
+    background-image: url(../image/googlemap.png);
+    width: 100%;
+    height: 380px;
+    position: relative;
+
+    .contact-box{
+        background-color: #1D2547;
+        width: 310px;
+        height: 250px;
+        padding: 40px 50px;
+        line-height: 1.9;
+        position: absolute;
+        top: 60px;
+        right: 100px;
+
+        i{
+            color: #fff;
+        }
+
+        h2{
+            font-size: 20px;
+            color: #fff;
+        }
+
+        small{
+            color: #fff;
+        }
+
+        span{
+            font-size: 13px;
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width: 800px){
+
+     .call-us button{
+    
+        font-size: 16px;
+        padding: 14px;
+        margin: 19px -45px 0px 0px;
+          
+    }
+
+}
+
+@media (max-width: 425px){
+
+     .call-us{
+         height: 300px;
+         flex-direction: column;
+         padding: 80px 40px;
+         text-align: center;
+
+        h2{
+           
+            font-size: 18px;
+        }
+
+        p{
+           font-size: 11px;
+        }
+
+        button{
+        margin: 15px 0 0 0px;
+        padding: 10px 8px;
+        font-size: 20px;
+        
+        }
+     }
+
+     .contact-box{
+        left: 34px;
+        
+     }
+ 
+}
+
+
+@media (min-width:426px) and  (max-width:800px){
+   
+    .call-us{
+         height: 300px;
+         flex-direction: column;
+         padding: 80px 40px;
+         text-align: center;
+         margin-top: 300px;
+
+
+         .contact-box{
+        left: 34px;
+        
+        }
+
+     }
+
+
+
+}
+
+

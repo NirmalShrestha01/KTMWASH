@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+ 
+$primary-color : #6785FF;
+$font-color : #555;
+$hover-color : #556fd8;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.title{
+    text-align: center;
+    margin:50px 0;
+    color: $font-color ;
+    line-height: 60px;
+    position: relative;
+
+    &::after{
+        
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color:$primary-color;
+        width: 100px;
+        height: 5px;
+        border-radius: 5px;
+    }
+}
+
+ button{
+        background-color:$primary-color;
+        padding: 15px 30px;
+        outline: none;
+        border-radius: 10px;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        
+ }
+
+ .responsive{
+     width: 100%;
+     height: 350px;
+ }
+
+
+
+@import 'navbar';
+@import 'banner';
+@import 'process';
+@import 'services';
+@import 'callus';
+@import 'testimonials';
+@import 'footer';
+@import 'pricing';
+@import 'service';
+@import 'contact';
